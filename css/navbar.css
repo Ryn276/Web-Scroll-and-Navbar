@@ -1,0 +1,43 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Menetapkan navbar berada di atas carousel */
+    background-color: #f8f9fa;  /* Latar belakang navbar */
+    padding: 0.5rem 1rem;  /* Padding agar navbar lebih rapi */
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: center; /* Mengatur konten di tengah */
+    align-items: center;     /* Vertikal center */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;  /* Mengatur item navbar secara horizontal */
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 1rem;  /* Memberi jarak antar item navbar */
+    margin-right: 1rem; /* Memberi jarak antar item navbar */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #007bff;  /* Warna teks navbar */
+    text-transform: uppercase; /* Membuat teks jadi kapital */
+    font-weight: bold; /* Membuat teks lebih tebal */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0056b3;  /* Warna ketika hover */
+  }
+  
+  .navbar-toggler {
+    border-color: #007bff; /* Warna tombol navbar ketika di kecilkan */
+  }
+  
+  

@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Section - Carousel */
+header {
+  margin-bottom: 30px;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+/* Carousel Container */
+.carousel-inner {
+  position: relative;
+}
+
+/* Gambar Carousel */
+.carousel-item img {
+  width: 100%;
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+
+/* Pastikan caption tidak ikut bergeser dengan gambar */
+.carousel-item {
+  position: relative;
+}
+
+/* Membuat carousel hanya mengubah gambar, bukan caption */
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 1; /* Pastikan kontrol tetap di atas gambar */
+}
+
+
+/* About Section */
+#about {
+  background-color: #f4f4f4;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Services Section */
+#services {
+  background-color: #ffffff;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#services ul li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+#services ul li strong {
+  font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#contact ul li {
+  font-size: 1.2rem;
+  margin-right: 30px;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#contact ul li a:hover {
+  color: #0056b3;
+}
+
+#contact ul li i {
+  margin-right: 10px;
+}
+
+#contact ul li a:hover i,
+#contact ul li i {
+  transition: color 0.3s;
+}
+
+#contact ul li i.fab.fa-instagram {
+  color: #E1306C; /* Instagram */
+}
+
+#contact ul li i.fab.fa-whatsapp {
+  color: #25D366; /* WhatsApp */
+}
+
+#contact ul li i.far.fa-envelope {
+  color: #D44638; /* Email */
+}
+
+#contact ul li i.fab.fa-facebook {
+  
+  color: #3b5998; /* Facebook */
+}
+
+#contact ul li:last-child {
+  margin-right: 0;
+}
+
+
+/* Footer Section */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+}
