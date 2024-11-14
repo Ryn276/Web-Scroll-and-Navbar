@@ -18,17 +18,17 @@ This project is designed to be simple yet modern, making it easier for users to 
    - The navbar remains fixed at the top of the page, ensuring it is always accessible, even when the user scrolls down.
 ### 2. Scroll Section (Module 10)
 #### 1. Smooth Scrolling :
-     - The page supports smooth scrolling, which makes the transition from one section to another more fluid.
-     - Links like Home, About, Services, and Contact scroll smoothly to their respective sections.
+   - The page supports smooth scrolling, which makes the transition from one section to another more fluid.
+   - Links like Home, About, Services, and Contact scroll smoothly to their respective sections.
 #### 2. Sticky Navbar :
-     - The navigation bar becomes sticky at the top of the page while scrolling, ensuring it remains in view at all times.
+   - The navigation bar becomes sticky at the top of the page while scrolling, ensuring it remains in view at all times.
 #### 3. Section Layout :
-     - **Home :** The initial screen with a banner and introduction.
-     - **About :** A section to introduce the project or business.
-     - **Services :** A section to describe the services offered.
-     - **Contact :** A section with social media links and contact options.
+   - **Home :** The initial screen with a banner and introduction.
+   - **About :** A section to introduce the project or business.
+   - **Services :** A section to describe the services offered.
+   - **Contact :** A section with social media links and contact options.
 #### 4. Back to Top Button:
-     - A floating button that allows users to quickly scroll back to the top of the page.
+   - A floating button that allows users to quickly scroll back to the top of the page.
 
 ## Setup Instructions
 ### 1. Clone the Repository
