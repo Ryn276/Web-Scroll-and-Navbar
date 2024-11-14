@@ -32,7 +32,7 @@ This project is designed to be simple yet modern, making it easier for users to 
 
 ## Setup Instructions
 ### 1. Clone the Repository
-To clone the repository, run the following command in your terminal:
+To clone the repository, run the following command in your terminal :</br>
 `git clone https://github.com/yourusername/projectname.git`
 ### 2. Open the Project
 Open the index.html file (or the main file with the navbar and sections) in any modern web browser to see the project in action.
